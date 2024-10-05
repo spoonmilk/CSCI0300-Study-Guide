@@ -1,0 +1,57 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Memory, Data Types, and Pointers, Oh My!}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Bits and Bytes}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Types and Sizes}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}What's a Pointer?}{2}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Thank your lucky stars (dereferencing)}{2}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Array Pointer Duality}{3}{subsubsection.1.3.2}%
+\contentsline {section}{\numberline {2}Placing things (Where does it all go?)}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Sections of Memory}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Alignment and Why We Do It}{4}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Alignment Rules for Common Types}{5}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Struct Alignment Rules}{5}{subsubsection.2.2.2}%
+\contentsline {section}{\numberline {3}Remember Me (Topics in Memory)}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}How does C allocate dynamic memory?}{6}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Regarding malloc()}{6}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Regarding free()}{6}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Common Issues}{6}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Avoiding the SEGFAULT Menace}{6}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Leak Prevention + Good Memory Practice}{6}{subsubsection.3.2.2}%
+\contentsline {section}{\numberline {4}Defining Undefined Behavior}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}What is Undefined Behavior?}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Common Areas for Undefined Behavior}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Dealing with Undefined Behavior}{7}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Avengers, Assembly!}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}How Compiling Works}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Reading Assembly}{8}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Assembly Cheat Sheet}{8}{subsubsection.5.2.1}%
+\contentsline {section}{\numberline {6}Racks on Racks, Stacks on Stacks (How the stack works)}{9}{section.6}%
+\contentsline {subsection}{\numberline {6.1}What is the Stack}{9}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Stack Organization}{9}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Special Registers}{9}{subsubsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.3}Stack Smashing}{9}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Buffer Overflows}{9}{subsubsection.6.3.1}%
+\contentsline {section}{\numberline {7}Operating the System}{10}{section.7}%
+\contentsline {subsection}{\numberline {7.1}What is an Operating System?}{10}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Privilege Separation/Memory Protection}{10}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Virtual Memory/Address Translation}{10}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Process Creation}{10}{subsection.7.4}%
+\contentsline {subsubsection}{\numberline {7.4.1}The fork() syscall}{10}{subsubsection.7.4.1}%
+\contentsline {subsubsection}{\numberline {7.4.2}The exec() syscall}{10}{subsubsection.7.4.2}%
+\contentsline {section}{\numberline {8}Inter-Process Communication}{11}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Introduction to Multiprocessing}{11}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Methods of Inter-Process Communication}{11}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}waitpid()}{11}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Let's talk Pipes}{11}{subsubsection.8.2.2}%
+\contentsline {section}{\numberline {9}Beyond the Pipe: Concurrency, Parallelism, and Threads}{12}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Principles of Concurrency and Parallelism}{12}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Introduction to Multithreading}{12}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Race Conditions and Mutexes}{12}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Synchronization and Atomics}{12}{subsection.9.4}%
+\contentsline {subsubsection}{\numberline {9.4.1}Bounded Buffer}{12}{subsubsection.9.4.1}%
+\contentsline {subsection}{\numberline {9.5}Scoped Locks}{12}{subsection.9.5}%
+\contentsline {section}{\numberline {10}Wrapping Things Up}{13}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Our History as Computer Scientists}{13}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Philosophical Reflections}{13}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Further Reading}{13}{subsection.10.3}%
+\contentsline {section}{\numberline {11}Acknowledgements}{14}{section.11}%
